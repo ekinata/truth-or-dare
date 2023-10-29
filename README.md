@@ -1,6 +1,6 @@
 # Getting Started with Truth Or Dare
 
-This project was made by Ekin & Uğur.
+This project was made by Ekin & Uğur from Ekin Branch.
 
 ## Available Scripts
 
