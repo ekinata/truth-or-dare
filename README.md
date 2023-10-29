@@ -1,6 +1,6 @@
 # Getting Started with Truth Or Dare
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was made by Ekin & Uğur.
 
 ## Available Scripts
 
