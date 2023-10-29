@@ -1,0 +1,74 @@
+.subcon {
+  width: 100vw;
+  height: 50vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  > .red{
+    background: rgb(196, 56, 56);
+    height: 50vh;
+    width: 50vw;
+  }
+  > .green {
+    background: rgb(17, 94, 17);
+    height: 50vh;
+    width: 50vw;
+  }
+  > .yellow {
+    background: rgb(223, 223, 73);
+    height: 50vh;
+    width: 50vw;
+  }
+
+  > .blue {
+    background: rgb(91, 91, 219);
+    height: 50vh;
+    width: 50vw;
+  }
+}
+
+.bottle{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:100px;
+}
+
+.bottleImg{
+  height: 300px;
+}
+
+.spinBtn{
+  width: 200px;
+  height: 50px;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.spin {
+  animation: spinanimation 3s ease-in-out;
+}
+
+.sound-icon{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 50px;
+}
+
+@keyframes spinanimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(1440deg);
+  }
+}
